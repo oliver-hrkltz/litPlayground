@@ -1,0 +1,26 @@
+{
+    "name": "@hrkltz/litstarter",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "scripts": {
+        "setup": "rm package-lock.json 2>> /dev/null; rm -r node_modules/ 2>> /dev/null; npm install",
+        "build": "tsc",
+        "build:watch": "tsc --watch",
+        "dev": "vite"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hrkltz/litStarter.git"
+    },
+    "author": "hrkltz.io",
+    "license": "MIT",
+    "dependencies": {
+        "lit": "2.5.0"
+    },
+    "devDependencies": {
+        "typescript": "4.9.4",
+        "vite": "4.0.0"
+    }
+}
