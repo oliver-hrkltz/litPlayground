@@ -11,3 +11,5 @@ IDE: Visual Studio Code v1.74
 ```bash
 ~$ sudo snap install node --channel=18/stable --classic
 ```
+
+TODO: Add routing? https://www.thisdot.co/blog/routing-management-with-litelement https://www.npmjs.com/package/@vaadin/router
