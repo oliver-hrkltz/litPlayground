@@ -6,8 +6,8 @@
     "type": "module",
     "scripts": {
         "setup": "rm package-lock.json 2>> /dev/null; rm -r node_modules/ 2>> /dev/null; npm install",
-        "build": "tsc",
-        "build:watch": "tsc --watch",
+        "build:components": "tsc",
+        "build:production": "vite build",
         "dev": "vite"
     },
     "repository": {
@@ -17,10 +17,10 @@
     "author": "hrkltz.io",
     "license": "MIT",
     "dependencies": {
-        "lit": "2.5.0"
+        "lit": "2.6.1"
     },
     "devDependencies": {
         "typescript": "4.9.4",
-        "vite": "4.0.0"
+        "vite": "4.0.4"
     }
 }
